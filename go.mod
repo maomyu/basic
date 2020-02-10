@@ -1,4 +1,4 @@
-module github.com/yuwe1/common
+module github.com/yuwe1/basic
 
 go 1.12
 
