@@ -39,7 +39,7 @@ func Init() {
 	//获取当前绝对路径
 	appPath, _ := filepath.Abs(filepath.Dir(filepath.Join("."+sp, sp)))
 	// 获得conf的路径
-	pt := filepath.Join(appPath, "./../srv_conf")
+	pt := filepath.Join(appPath, "./srv_conf")
 	//设置工作目录
 	fmt.Println(pt)
 	// os.Chdir(filepath.Join(pt, "."))
